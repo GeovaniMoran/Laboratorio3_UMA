@@ -1,0 +1,65 @@
+class Auto:
+
+  def __init__(self,marca,tipo,modelo,asientos,color,tipo_combustible,precio,años_garantia,fecha_ingreso):
+     self.marca=marca
+     self.modelo=modelo
+     self.asientos=asientos
+     self.color=color
+     self.tipo=tipo
+     self.tipo_combustible=tipo_combustible
+     self.precio=precio
+     self.años_garantia=años_garantia
+     self.fecha_ingreso=fecha_ingreso
+
+auto1=Auto(marca="Kia", modelo="Cerato",asientos="3", color="Rojo", tipo="Sedan",tipo_combustible="Gasolina",precio="$30,000",años_garantia="2", fecha_ingreso="01-Marzo-2020")
+auto2=Auto(marca="Mitsubishi", modelo="Triton",asientos="4", color="Gris metalico", tipo="pickup",tipo_combustible="Disel",precio="$60,000",años_garantia="2", fecha_ingreso="01-Agosto-2020")
+auto3=Auto(marca="Hyundai", modelo="H100",asientos="2", color="Blanco", tipo="Pickup",tipo_combustible="Disel",precio="$45,000",años_garantia="2", fecha_ingreso="01-Mayo-2020")
+
+
+ 
+def info_auto1():
+    print("Infromacion detallada del auto #1:")
+    print("\t")
+    print (f"Marca: {auto1.marca}")
+    print (f"Modelo: {auto1.modelo}")
+    print (f"Asientos: {auto1.asientos}")
+    print (f"Color: {auto1.color}")
+    print (f"Tipo: {auto1.tipo}")
+    print (f"Tipo de conbustible : {auto1.tipo_combustible}")
+    print (f"Precio: {auto1.precio}")
+    print (f"Años de garantia: {auto1.años_garantia}")
+    print (f"Fecha de ingreso a la compañia: {auto1.fecha_ingreso}")
+    print("\t")
+info_auto1()
+ 
+
+
+def info_auto2():
+    print("Infromacion detallada del auto #2:")
+    print("\t")
+    print (f"Marca: {auto2.marca}")
+    print (f"Modelo: {auto2.modelo}")
+    print (f"Asientos: {auto2.asientos}")
+    print (f"Color: {auto2.color}")
+    print (f"Tipo: {auto2.tipo}")
+    print (f"Tipo de conbustible : {auto2.tipo_combustible}")
+    print (f"Precio: {auto2.precio}")
+    print (f"Años de garantia: {auto2.años_garantia}")
+    print (f"Fecha de ingreso a la compañia: {auto2.fecha_ingreso}")
+    print("\t")
+info_auto2()
+
+def info_auto3():
+    print("Infromacion detallada del auto #3:")
+    print("\t")
+    print (f"Marca: {auto3.marca}")
+    print (f"Modelo: {auto3.modelo}")
+    print (f"Asientos: {auto3.asientos}")
+    print (f"Color: {auto3.color}")
+    print (f"Tipo: {auto3.tipo}")
+    print (f"Tipo de conbustible: {auto3.tipo_combustible}")
+    print (f"Precio: {auto3.precio}")
+    print (f"Años de garantia: {auto3.años_garantia}")
+    print (f"Fecha de ingreso a la compañia: {auto3.fecha_ingreso}")
+    print("\t")
+info_auto3()
